@@ -23,7 +23,7 @@ const getBooks = ({ response }: { response: any }) => {
 };
 
 const helloWorld = ({ response }: { response: any }) => {
-  response.body = "Hello World";
+  response.body = "Hello Nguyen Dac Phuc nhe";
 };
 
 const getBook = (
