@@ -23,6 +23,7 @@ const getBooks = ({ response }: { response: any }) => {
 };
 
 const helloWorld = ({ response }: { response: any }) => {
+  console.log("Running in deno land");
   response.body = "Hello Nguyen Dac Phuc nhe";
 };
 
